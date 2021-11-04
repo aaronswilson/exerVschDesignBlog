@@ -1,0 +1,68 @@
+.navbar {
+    background-color: burlywood;
+    position: fixed;
+    float: left;
+    top: 0;
+    width: 100%;
+}
+  
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.navbar a:hover {
+    background: white;
+    color: black;
+}
+  
+.main {
+    margin-top: 30px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    background: white;
+}
+  
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: lightblue;
+    width: 60%;
+    margin: auto
+}
+  
+.card {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+    margin: auto;
+    width: 50%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card img {
+    width: 20%;
+    float: left;
+    padding-right: 5%;
+}
+
+.about {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+    margin: auto;
+    width: 50%;
+}
